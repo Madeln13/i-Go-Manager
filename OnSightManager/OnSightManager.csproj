@@ -148,10 +148,6 @@
     <Content Include="..\..\..\..\..\Desktop\i-GoRentals Mykonos\wetransfer-b8e4fd\iGO Manager icon.ico">
       <Link>iGO Manager icon.ico</Link>
     </Content>
-    <Content Include="App_Data\iGoData.mdf" />
-    <Content Include="App_Data\iGoData_log.ldf">
-      <DependentUpon>iGoData.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -293,6 +289,7 @@
     <Content Include="Views\Home\Orders.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
