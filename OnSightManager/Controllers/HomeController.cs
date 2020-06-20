@@ -13,6 +13,10 @@ namespace OnSightManager.Controllers
             return View();
         }
 
+        public ActionResult Orders()
+        {
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
