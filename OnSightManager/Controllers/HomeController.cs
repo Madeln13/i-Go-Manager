@@ -37,5 +37,6 @@ namespace OnSightManager.Controllers
 
             return View();
         }
-    }
+        
+}
 }
