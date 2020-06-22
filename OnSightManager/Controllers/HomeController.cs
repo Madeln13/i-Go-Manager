@@ -8,23 +8,30 @@ namespace OnSightManager.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         public ActionResult Orders()
         {
             return View();
         }
-        public ActionResult About()
+
+        public ActionResult Fleet()
+        {
+            return View();
+        }
+        public ActionResult Customers()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Calendar()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Statistics()
         {
             ViewBag.Message = "Your contact page.";
 
