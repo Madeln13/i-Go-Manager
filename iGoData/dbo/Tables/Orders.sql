@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Orders] (
-    [Orders Id]                           INT          NOT NULL,
+    [Orders Id]                           INT          NOT NULL IDENTITY, 
 	[Customers Id]                           INT          NOT NULL,
     [First name]                   CHAR (10)    NOT NULL,
     [Last name]                    CHAR (20)    NOT NULL,

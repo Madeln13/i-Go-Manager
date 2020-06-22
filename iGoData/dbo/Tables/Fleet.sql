@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Fleet] (
-    [Vehicle ID]                      SMALLINT   NOT NULL,
+    [Vehicle ID]                      SMALLINT   NOT NULL IDENTITY,
     [Vehicle Name]                    NCHAR (10) NOT NULL,
     [Type]                            NCHAR (10) NULL,
     [Transmision]                     NCHAR (10) NULL,
